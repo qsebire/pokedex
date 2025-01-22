@@ -1,0 +1,129 @@
+.card {
+    position: fixed;
+    z-index: 20;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    width: 39%;
+    animation: slidein 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+  
+  @keyframes slidein {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+        transform: translateY(0%);
+    }
+  }
+
+.mainInfos {
+    padding: 48px 0 32px;
+    position: relative;
+}
+
+.mainInfos img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    -webkit-filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.6));
+    cursor: pointer;
+}
+
+.name_types {
+    width: 54%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8);
+}
+
+.types {
+    padding: 16px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.type {
+    padding: 8px 16px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 100px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.closeHighlight {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.cardInnerBackground {
+    border-radius: 16px 0 0 0;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
+    padding: 8px 0 8px 8px;
+    min-height: 0;
+}
+
+.cardInner {
+    background-color: rgba(12, 24, 33, 0.95);
+    padding: 56px 32px 32px;
+    border-radius: 8px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: scroll;
+    color: white;
+}
+
+.basicInfos, .stats, .evolutions {
+    text-transform: capitalize;
+}
+
+.stat {
+    display: grid;
+    grid-template-columns: 132px 1fr;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.statName, .statRatio {
+    margin: 0;
+}
+
+.statName {
+    font-weight: 700;
+}
+
+.statRatio {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.evolutions {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    text-align: center;
+}

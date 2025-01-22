@@ -1,0 +1,13 @@
+.statBar {
+    width: 100%;
+    background-color: rgb(12, 24, 33);
+    border-radius: 100px;
+    height: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.statBar_color {
+    height: 100%;
+    border-radius: 100px;
+}

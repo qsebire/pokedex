@@ -1,0 +1,29 @@
+.evol {
+    cursor: pointer;
+}
+
+.evol_imgBlock {
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.evol_image {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.evol_bckgImage {
+    width: 54%;
+    height: 54%;
+    top: 23%;
+    left: 23%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 90;
+}
+
+.evol p {
+   font-size: 16px;
+   font-weight: 600;
+}
