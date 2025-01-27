@@ -1,15 +1,15 @@
-<H1>Simple Pokedex</H1>
+<h1>Simple Pokedex</h1>
 
 <p>To learn how to use external APIs, I created a simple Pokedex with an infinite scroll and a search bar. 
   This digital database allows users to view Pokémon information such as their names, types, abilities, and stats. 
   It’s a great project to practice web development skills while integrating external data.</p>
 
-<hr style="height:1px;"/>
-
-<H3>Link to the pokedex:</H3>
+---
+  
+<h3>Link to the pokedex:</h3>
 <a href="https://pokedex-theta-steel-53.vercel.app/"  target="_blank">View the pokedex</a>
-
-<hr style="height:1px;"/>
+  
+___
 
 <h3 align="left">Development languages:</h3>
 <p align="left"> 
