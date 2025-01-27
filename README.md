@@ -4,10 +4,7 @@
   This digital database allows users to view Pokémon information such as their names, types, abilities, and stats. 
   It’s a great project to practice web development skills while integrating external data.</p>
 
----
-  
-<h3>Link to the pokedex:</h3>
-<a href="https://pokedex-theta-steel-53.vercel.app/"  target="_blank">View the pokedex</a>
+<a href="https://pokedex-theta-steel-53.vercel.app/"  target="blank">View the pokedex</a>
   
 ___
 
